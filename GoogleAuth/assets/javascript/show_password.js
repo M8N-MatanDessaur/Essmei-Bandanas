@@ -1,0 +1,13 @@
+$(function(){
+    $("#show_pass").click(function()
+    { 
+        if($(this).is(":checked"))
+        {
+            $("#pass").attr("type","text")
+        }
+        else
+        {
+            $("#pass").attr("type","password")
+        }
+    });
+})
